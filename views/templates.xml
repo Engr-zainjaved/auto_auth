@@ -1,0 +1,10 @@
+<odoo>
+    <template id="login" inherit_id="web.login">
+        <xpath expr="//div[@class='login-form']" position="replace">
+            <div class="login-form">
+                <!-- Default login form -->
+                <t t-call="web.login"/>
+            </div>
+        </xpath>
+    </template>
+</odoo>
